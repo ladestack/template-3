@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Girish Lade — full-stack developer, startup founder, and AI product builder based in Maharashtra, India." />
+  <title>Girish Lade — Full-Stack Developer & Startup Founder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress-bar" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Girish Lade home">
+        <span class="brand-mark">GL</span>
+        <span class="brand-text">Girish Lade</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="nav-cta" href="#contact">Let's Talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="hero-status">
+            <span class="status-dot" aria-hidden="true"></span>
+            Available for select product builds
+          </div>
+
+          <h1 id="hero-title">Building clean, useful products with <span class="gradient-text">code and AI.</span></h1>
+
+          <p class="hero-description">
+            I'm Girish Lade — a full-stack developer and technical founder behind Lade Stack. I turn early-stage ideas into lean SaaS products, AI-powered tools, and scalable web experiences.
+          </p>
+
+          <div class="typed-wrap" aria-label="Current focus areas">
+            <span class="typed-label">focus:</span>
+            <span id="typed-text"></span>
+            <span class="typed-cursor" aria-hidden="true"></span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" href="#work">
+              View My Work
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a class="btn btn-secondary magnetic" href="#contact">Start a Conversation</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="floating-card one">
+            <span class="floating-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path d="M13 2L4.5 13.5H11L10 22L19.5 10H13L13 2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div>
+              <small>Execution style</small>
+              <strong>MVP-first, startup-grade</strong>
+            </div>
+          </div>
+
+          <article class="profile-card" data-tilt>
+            <div class="profile-art">
+              <div class="initials">GL</div>
+            </div>
+            <div class="profile-meta">
+              <div>
+                <strong>Girish Lade</strong>
+                <span>Full-Stack Developer · Founder</span>
+              </div>
+              <span class="profile-badge">India</span>
+            </div>
+          </article>
+
+          <div class="floating-card two">
+            <span class="floating-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path d="M12 3L13.7 8.3L19 10L13.7 11.7L12 17L10.3 11.7L5 10L10.3 8.3L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                <path d="M19 15L19.8 17.2L22 18L19.8 18.8L19 21L18.2 18.8L16 18L18.2 17.2L19 15Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div>
+              <small>Specialty</small>
+              <strong>AI-powered SaaS tools</strong>
+            </div>
+          </div>
+
+          <div class="orbit"><span></span></div>
+        </div>
+      </div>
+
+      <a class="scroll-hint" href="#about" aria-label="Scroll to about section">
+        <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+        Scroll
+      </a>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee-section" aria-label="Technology and focus marquee">
+      <div class="marquee">
+        <div class="marquee-group">
+          <span class="marquee-item">Full-Stack Development</span>
+          <span class="marquee-item">AI Model Integration</span>
+          <span class="marquee-item">SaaS Architecture</span>
+          <span class="marquee-item">Cloud Infrastructure</span>
+          <span class="marquee-item">MVP-First Execution</span>
+          <span class="marquee-item">Developer Tools</span>
+          <span class="marquee-item">Open Source</span>
+        </div>
+        <div class="marquee-group" aria-hidden="true">
+          <span class="marquee-item">Full-Stack Development</span>
+          <span class="marquee-item">AI Model Integration</span>
+          <span class="marquee-item">SaaS Architecture</span>
+          <span class="marquee-item">Cloud Infrastructure</span>
+          <span class="marquee-item">MVP-First Execution</span>
+          <span class="marquee-item">Developer Tools</span>
+          <span class="marquee-item">Open Source</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">About Me</span>
+            <h2 id="about-title">Practical engineering for ambitious ideas.</h2>
+          </div>
+          <p class="section-lead">
+            A builder mindset shaped by mechanical engineering, modern web development, and startup execution.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card about-copy reveal">
+            <p>
+              I'm a full-stack developer, UI/UX-focused builder, and technical founder from Solapur, Maharashtra, India. Through Lade Stack, I focus on MVP-first execution, AI-powered products, and startup-grade outcomes.
+            </p>
+            <p>
+              My core work combines JavaScript, TypeScript, React, Next.js, Node.js, Python, SQL, and cloud platforms to create products that are fast to validate and practical to scale. I'm especially interested in sovereign, self-hosted AI infrastructure that helps developers avoid API vendor lock-in.
+            </p>
+
+            <div class="about-points stagger">
+              <div class="about-point">
+                <span class="check">✓</span>
+                <div>
+                  <strong>MVP-first product thinking</strong>
+                  <span>Validate quickly, build only what matters, and iterate with clarity.</span>
+                </div>
+              </div>
+              <div class="about-point">
+                <span class="check">✓</span>
+                <div>
+                  <strong>Full-stack execution</strong>
+                  <span>From interface and API design to databases, deployment, and monitoring.</span>
+                </div>
+              </div>
+              <div class="about-point">
+                <span class="check">✓</span>
+                <div>
+                  <strong>AI with real utility</strong>
+                  <span>Focused on differentiated tools, not generic chatbot wrappers.</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <aside class="glass-card stack-card reveal">
+            <div>
+              <span class="eyebrow">Toolbox</span>
+              <h3>Technology I use to ship.</h3>
+              <p>A practical stack for building SaaS products, AI integrations, and cloud-native applications.</p>
+
+              <div class="skill-cloud" aria-label="Skills">
+                <span class="skill-chip">JavaScript</span>
+                <span class="skill-chip">TypeScript</span>
+                <span class="skill-chip">React</span>
+                <span class="skill-chip">Next.js</span>
+                <span class="skill-chip">Node.js</span>
+                <span class="skill-chip">Python</span>
+                <span class="skill-chip">SQL</span>
+                <span class="skill-chip">Cloudflare</span>
+                <span class="skill-chip">Supabase</span>
+                <span class="skill-chip">Vercel</span>
+                <span class="skill-chip">Railway</span>
+                <span class="skill-chip">Render</span>
+                <span class="skill-chip">GitHub</span>
+                <span class="skill-chip">LLM APIs</span>
+                <span class="skill-chip">Prompt Engineering</span>
+                <span class="skill-chip">WordPress</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="focus-strip reveal">
+          <div class="focus-item">
+            <span>01</span>
+            <strong>Product</strong>
+            <p>Clear UX, useful features, and strong positioning.</p>
+          </div>
+          <div class="focus-item">
+            <span>02</span>
+            <strong>Engineering</strong>
+            <p>Maintainable systems with pragmatic architecture.</p>
+          </div>
+          <div class="focus-item">
+            <span>03</span>
+            <strong>AI</strong>
+            <p>Open-source models, automation, and developer workflows.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">What I Do</span>
+            <h2 id="services-title">From idea to working product.</h2>
+          </div>
+          <p class="section-lead">
+            Focused services for founders, teams, and builders who need clean execution without unnecessary complexity.
+          </p>
+        </div>
+
+        <div class="services-grid stagger">
+          <article class="glass-card service-card">
+            <span class="service-number">01</span>
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 6.5C4 5.12 5.12 4 6.5 4H17.5C18.88 4 20 5.12 20 6.5V17.5C20 18.88 18.88 20 17.5 20H6.5C5.12 20 4 18.88 4 17.5V6.5Z" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M8 9H16M8 13H13M8 17H15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>SaaS MVP Development</h3>
+            <p>Lean product builds designed to validate ideas quickly while keeping the foundation ready for future growth.</p>
+            <ul class="service-list">
+              <li>Product architecture</li>
+              <li>Frontend and backend development</li>
+              <li>Auth, dashboards, and payments planning</li>
+            </ul>
+          </article>
+
+          <article class="glass-card service-card">
+            <span class="service-number">02</span>
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 3L13.9 8.1L19 10L13.9 11.9L12 17L10.1 11.9L5 10L10.1 8.1L12 3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M18 15L18.7 17.3L21 18L18.7 18.7L18 21L17.3 18.7L15 18L17.3 17.3L18 15Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>AI Model Integration</h3>
+            <p>Useful AI features powered by API-based or self-hosted open-source models, with cost and control in mind.</p>
+            <ul class="service-list">
+              <li>LLM workflows and prompt systems</li>
+              <li>AI assistants and automation</li>
+              <li>Self-hosted model exploration</li>
+            </ul>
+          </article>
+
+          <article class="glass-card service-card">
+            <span class="service-number">03</span>
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M7 18H17C19.21 18 21 16.21 21 14C21 11.79 19.21 10 17 10C16.74 10 16.49 10.02 16.24 10.07C15.47 7.61 13.24 5.75 10.5 5.75C7.19 5.75 4.5 8.44 4.5 11.75C4.5 11.83 4.5 11.92 4.51 12C3.12 12.39 2 13.58 2 15C2 16.66 3.34 18 5 18H7Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 12V21M12 12L9 15M12 12L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Cloud & Deployment</h3>
+            <p>Cost-effective deployment strategies using modern platforms, edge infrastructure, and scalable databases.</p>
+            <ul class="service-list">
+              <li>Cloudflare, Vercel, Railway, and Render</li>
+              <li>Supabase and SQL data models</li>
+              <li>Free-tier and low-cost optimization</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WORK ================= -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">Selected Work</span>
+            <h2 id="work-title">Current builds and focus areas.</h2>
+          </div>
+          <p class="section-lead">
+            A snapshot of the products, research, and startup work currently shaping my journey.
+          </p>
+        </div>
+
+        <div class="work-layout">
+          <aside class="glass-card work-intro reveal">
+            <span class="eyebrow">Portfolio Notes</span>
+            <h3>Built around real utility.</h3>
+            <p>My work prioritizes differentiated, non-generic software with clear use cases and long-term value.</p>
+            <div class="work-note">
+              Public project links can be added here as repositories and launches become available.
+            </div>
+          </aside>
+
+          <div class="projects stagger">
+            <article class="glass-card project-card" data-tilt>
+              <div>
+                <div class="project-top">
+                  <span class="project-tag">Current Venture</span>
+                  <span class="project-tag">Founder</span>
+                </div>
+                <h3>Lade Stack</h3>
+                <p>A tech brand focused on MVP-first execution, startup-grade outcomes, and practical AI-powered products for modern builders.</p>
+                <div class="project-meta">
+                  <span>Product Strategy</span>
+                  <span>Full-Stack Development</span>
+                  <span>AI Tools</span>
+                </div>
+              </div>
+              <a class="project-link placeholder-link" href="#" aria-label="Lade Stack project link placeholder">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </article>
+
+            <article class="glass-card project-card" data-tilt>
+              <div>
+                <div class="project-top">
+                  <span class="project-tag">R&amp;D</span>
+                  <span class="project-tag">Developer Tools</span>
+                </div>
+                <h3>Self-Hosted AI Infrastructure</h3>
+                <p>Exploring a CLI-based developer assistant powered by open-source LLMs, designed around privacy, lower long-term costs, and no API vendor lock-in.</p>
+                <div class="project-meta">
+                  <span>Open-Source LLMs</span>
+                  <span>CLI Experience</span>
+                  <span>Sovereign AI</span>
+                </div>
+              </div>
+              <a class="project-link placeholder-link" href="#" aria-label="Self-hosted AI infrastructure project link placeholder">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </article>
+
+            <article class="glass-card project-card" data-tilt>
+              <div>
+                <div class="project-top">
+                  <span class="project-tag">Product Discovery</span>
+                  <span class="project-tag">Indian Market</span>
+                </div>
+                <h3>SaaS &amp; Utility Tools</h3>
+                <p>Researching high-impact, low-competition software ideas with real-world value, including products suited to Indian and Hindi-speaking users.</p>
+                <div class="project-meta">
+                  <span>Market Research</span>
+                  <span>Validation</span>
+                  <span>Utility Software</span>
+                </div>
+              </div>
+              <a class="project-link placeholder-link" href="#" aria-label="SaaS and utility tools project link placeholder">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= JOURNEY ================= -->
+    <section class="section" id="journey" aria-labelledby="journey-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">Journey</span>
+            <h2 id="journey-title">A systems-driven path into software.</h2>
+          </div>
+          <p class="section-lead">
+            From engineering fundamentals to full-stack products, AI workflows, and startup building.
+          </p>
+        </div>
+
+        <div class="timeline stagger">
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="glass-card timeline-content">
+              <small>Current</small>
+              <h3>Founder — Lade Stack</h3>
+              <p>Building and validating AI-powered SaaS and developer-focused products with an MVP-first approach.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="glass-card timeline-content">
+              <small>Builder</small>
+              <h3>Full-Stack Developer</h3>
+              <p>Developing modern web applications with React, Next.js, Node.js, Python, SQL, and cloud deployment platforms.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="glass-card timeline-content">
+              <small>Foundation</small>
+              <h3>B.Tech in Mechanical Engineering</h3>
+              <p>Completed an engineering degree that strengthened my systems thinking, problem-solving, and practical execution style.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="glass-card contact-card reveal">
+          <div class="contact-main">
+            <span class="eyebrow">Contact</span>
+            <h2 id="contact-title">Have an idea worth building?</h2>
+            <p>
+              I'm open to startup conversations, product collaborations, and focused full-stack builds. Add your email and social links in <code>script.js</code> to activate the buttons below.
+            </p>
+
+            <div class="contact-actions">
+              <button class="btn btn-primary magnetic" type="button" data-contact="email">
+                Email Me
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M4 6H20V18H4V6Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                  <path d="M4 7L12 13L20 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <button class="btn btn-secondary magnetic" type="button" data-contact="github">GitHub</button>
+            </div>
+          </div>
+
+          <aside class="contact-aside">
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <small>Name</small>
+                <strong>Girish Lade</strong>
+              </div>
+              <div class="contact-info-item">
+                <small>Location</small>
+                <strong>Solapur, Maharashtra, India</strong>
+              </div>
+              <div class="contact-info-item">
+                <small>Focus</small>
+                <strong>AI SaaS · Developer Tools · Cloud</strong>
+              </div>
+            </div>
+
+            <div>
+              <small class="eyebrow" style="margin-bottom: 14px;">Social</small>
+              <div class="social-links">
+                <button type="button" data-contact="github">GitHub</button>
+                <button type="button" data-contact="linkedin">LinkedIn</button>
+                <button type="button" data-contact="twitter">X / Twitter</button>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Girish Lade. Designed and built with HTML, CSS, and JavaScript.</p>
+      <a class="back-to-top" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
